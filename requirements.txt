@@ -1,0 +1,26 @@
+# Core agent / OpenAI SDK
+openai>=1.0.0           # if agents package depends on it
+agents-sdk              # or the exact name of your `agents` package, if pip-installable
+
+# Data models & env vars
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+
+# Web UI
+gradio>=4.0.0
+
+# LangChain document loaders + PDF/Word deps
+langchain-community>=0.3.0
+pypdf>=4.0.0
+docx2txt>=0.8
+
+# Google Gmail API + auth
+google-api-python-client>=2.0.0   
+google-auth>=2.0.0                
+google-auth-oauthlib>=1.0.0       
+
+# Email + HTTP utilities (usually pulled in automatically)
+requests>=2.31.0
+
+# Optional (only if you use resend anywhere else)
+resend>=0.9.0

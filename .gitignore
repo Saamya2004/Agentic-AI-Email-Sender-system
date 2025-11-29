@@ -1,0 +1,26 @@
+# Secrets / credentials
+.env
+credentials.json
+token.json
+
+# Personal / sample files
+saamya_gupta_resume.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env*/        # if you use .env folders for venvs
+
+# Jupyter / VS Code
+.ipynb_checkpoints/
+*.ipynb_cells/
+.vscode/
+*.code-workspace
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
